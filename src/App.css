@@ -19,10 +19,29 @@ body > div {
   display: flex;
 }
 
-#navbar {
-  padding: 2em;
-  justify-content: space-evenly;
+#navbar  {
+  padding: 0rem;
+  display: flex;
+  flex-direction: row;
 }
+#navbar > .link {
+  color: white;
+  background-color: rgb(46, 46, 46);
+  padding: 2rem;
+  width: 100%;
+  text-align: center;
+  transition: 0.5s ease;
+
+}
+#navbar > .link:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(121, 121, 121);
+  padding: 2rem;
+  width: 100%;
+  text-shadow: 0px 0px 15px rgb(0, 60, 255) ;
+}
+
+
 
 #main-section {
   flex-grow: 1;
@@ -35,7 +54,7 @@ body > div {
   justify-content: center;
 }
 
-.red {
+.red{
   background-color: #b05f6d;
   color: white;
 }
@@ -44,3 +63,19 @@ body > div {
   background-color: #275db3;
   color: white;
 }
+
+.home {
+  background-color: aquamarine;
+  color: black;
+}
+
+.orange {
+  background-color: orange;
+  color: white;
+}
+
+.green {
+  background-color: green;
+  color: white;
+}
+
